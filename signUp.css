@@ -1,0 +1,211 @@
+body{
+    background-color: rgb(220, 224, 226);
+
+}
+
+
+
+
+.login{
+    height: 590px;
+    width: 350px;
+    position: relative;
+    background-color: whitesmoke;
+    left: 38%;
+    top: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.loginContainer{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    background-color: whitesmoke;
+    left: 38%;
+    top: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+hr{
+    width: 100%;
+    border: none; /* Remove the default border */
+    border-top: 4px solid blue; /* Set a new top border with the desired thickness and color */
+    margin: 10px 0;
+}
+.email{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#useremail{
+    height: 30px;
+    width: 95%;
+    border-radius: 5px;
+    border-color: blue;
+
+}
+#userpassword{
+    height: 30px;
+    width: 95%;
+    border-radius: 5px;
+    border-color: blue;
+}
+#userfirstname , #userLastName{
+    height: 30px;
+    width: 95%;
+    border-radius: 5px;
+    border-color: blue;
+}
+
+label {
+    font-size: 20px;
+    color: blue;
+}
+.password{
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.FirstName, .LastName{
+    margin-top: 20px;
+    margin-left: 20px;  
+}
+.FirstName{
+    margin-top: 30px;
+}
+.head{
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 25px ;
+}
+#logniBtn{
+    margin-top: 60px;
+    margin-left: 120px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: blue;
+    border-color: blue;
+}
+#signUpBtn{
+    margin-top: 60px;
+    margin-left: 120px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: blue;
+    border-color: blue;
+}
+#logniBtn:hover{
+    background-color: blue;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size:medium;
+    transition: 0.5s;
+
+}
+#signUpBtn:hover{
+    background-color: blue;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size:medium;
+    transition: 0.5s;
+
+}
+p{
+    display: inline;
+    font-size: small;
+    text-align: center;
+    margin-top: 7px;
+    color: blue
+}
+.text{
+    margin-top: 7px;
+    text-align: center;
+
+}
+a{
+    color: blue;
+    font-weight: bold;
+    font-size: large;
+}
+
+#msg {
+    color: Red;
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.green{
+    color: rgb(110, 240, 110);
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+img{
+    height: 20px;
+    width: 20px;
+    
+}
+
+.signInGoogle{
+    display: flex;
+    justify-content: center;
+}
+#googleBtn{
+    border: none;
+    color: blue;
+    cursor:pointer;
+    margin-top: 1px;
+    display: flex;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#googleBtn > img {
+        margin-right: 5px;
+}
+#googleBtn:active{
+        opacity: 0.7;
+}
+#forgetPass{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.signUp{
+    margin-right: 130px;
+}
+.navbar{
+    height: 60px;
+}
+.loginhead{
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 10px ;
+
+}
+#login{
+    cursor: pointer;
+}
+#login:active{
+    opacity: 0.5;
+}
+#signUp{
+    cursor: pointer;
+}
+#signUp:active{
+    opacity: 0.5;
+}
+.headsignUp{
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 10px ; 
+}

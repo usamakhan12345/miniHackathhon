@@ -1,0 +1,58 @@
+.profile{
+    background-color: whitesmoke;
+}
+.container{
+    height: 550px;
+    margin-top: 10px;
+    width: 400px;
+    background-color: whitesmoke;
+}
+.profilePic{
+    height: 150px;
+    width: 160px;
+    border-radius: 10%;
+    position: relative;
+    top: 40px;
+    left: 30px;
+    background-color: blueviolet;
+}
+
+h3{
+        top: 70px;
+        left: 30px;
+        position: relative;
+}
+.name{
+    display: flex;
+}
+.editIcon{
+    font-size: 10px;
+    cursor: pointer;
+}
+.input{
+    position: relative;
+    top: 130px;
+    left: 0px;
+
+}
+
+input{
+    width: 296px;
+    position: relative;
+    left: 0%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    padding-left: 15px;
+}
+#file{
+    display: none;
+}
+#editprofilePic{
+    position: absolute;
+    bottom: 7px;
+    right: 5px;
+    color: white;
+}
